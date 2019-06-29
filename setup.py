@@ -64,7 +64,8 @@ setup_args = dict(
         'traitlets',
         'ipython_genutils',
         'jupyter_core',
-        'jupyter_kernel_mgmt'
+        'jupyter_kernel_mgmt',
+        'paramiko'
     ],
     extras_require   = {
         'test': ['mock', 'pytest'],
